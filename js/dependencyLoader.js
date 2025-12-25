@@ -4,7 +4,7 @@ const maxLoadTimesTrys = 4;
 //Main Libraries
 dependencyUrls.push("https://www.googletagmanager.com/gtag/js?id=UA-118283086-6", "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js");
 //Ads Libraries
-dependencyUrls.push("js/adsController.js", "js/IronSourceRV.js", "js/cpmstar.js", "js/moneyController.js");
+dependencyUrls.push("js/somethingController.js", "js/IronSourceRV.js", "js/cpmstar.js", "js/moneyController.js");
 //Firebase/Google Libraries
 dependencyUrls.push("js/googleAnalytics.js", "js/Firebase/firebase-init.js?v=2", "js/Firebase/firebase-login.js?v=2", "js/Firebase/firebase-config.js?v=2", "js/Firebase/firebase-firestore.js?v=2")
 //Game Libraries
@@ -73,3 +73,4 @@ function onUnityReady() {
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
+
