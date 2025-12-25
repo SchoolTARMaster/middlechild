@@ -4,7 +4,7 @@ function showGame() {
 	const buildUrl = getBuildUrl();
 	const config = {
 		dataUrl: buildUrl + "/WebGL.data.unityweb",
-        frameworkUrl: buildUrl + "/WebGL.framework.js.unityweb",
+        frameworkUrl: "cdn/Build/WebGL.framework.js.unityweb",
         codeUrl: buildUrl + "/WebGL.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "JustPlay.LOL",
@@ -43,4 +43,5 @@ function UnityProgress(progress) {
 		loader.style.display = "none";
 		window.gameLoaded = true;
 	}
+
 }
