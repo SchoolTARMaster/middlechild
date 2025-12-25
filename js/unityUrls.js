@@ -6,7 +6,8 @@ function getBuildUrl() {
 }
 
 function getGameLoaderUrl() {
-	return getBuildUrl() + "/WebGL.loader.js";
+	return "cdn/Build/WebGL.loader.js";
 }
+
 
 
