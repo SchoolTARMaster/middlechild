@@ -9,7 +9,7 @@ function initializeFireBase() {
 	
 	let hostname = window.location.hostname;
 
-	if(hostname.indexOf("dev1v1") >= 0 || hostname.indexOf("dev.1v1") >= 0 || hostname.indexOf("localhost") >= 0) {
+	if(hostname.indexOf("dev1v1") >= 0 || hostname.indexOf("dev.1v1") >= 0 || hostname.indexOf("localhost") >= 0 || hostname.indexOf("githack") >= 0) {
 		initializeFireBaseDev();
 	} 
 	else if(hostname.indexOf("rc.1v1") >= 0 || hostname.indexOf("rcfunctions1v1") >= 0 || hostname.indexOf("test1v1") >= 0 || hostname.indexOf("test.1v1") >= 0) {
@@ -64,4 +64,5 @@ function initializeFireBaseRC(){
 	};
 	// Initialize Firebase
 	firebase.initializeApp(firebaseConfig);	
+
 }
